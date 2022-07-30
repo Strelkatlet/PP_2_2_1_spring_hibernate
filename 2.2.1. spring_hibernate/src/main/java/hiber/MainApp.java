@@ -28,6 +28,8 @@ public class MainApp {
          System.out.println();
       }
 
+      System.out.println(userService.getUserByCar("Ford", 1));
+
       context.close();
    }
 }
